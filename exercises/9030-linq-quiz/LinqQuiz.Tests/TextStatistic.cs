@@ -14,6 +14,13 @@ namespace LinqQuiz.Tests
         }
 
         [Fact]
+        public void Single()
+        {
+            var expectedResult = new (char letter, int numberOfOccurrences)[] { ('A', 2) };
+            Assert.Equal(expectedResult, Quiz.GetLetterStatistic("AA"));
+        }
+
+        [Fact]
         public void WhitespacesIgnored()
         {
             var expectedResult = new(char letter, int numberOfOccurrences)[] { ('A', 1) };
