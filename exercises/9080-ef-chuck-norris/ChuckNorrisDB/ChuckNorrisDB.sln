@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuckNorrisDB", "ChuckNorrisDB.csproj", "{991F3411-DAD1-4384-A455-2501CF5184C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuckNorrisClassLibrary", "..\ChuckNorrisClassLibrary\ChuckNorrisClassLibrary.csproj", "{A5E0D95B-4849-42E6-A897-1552A6C8D120}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{991F3411-DAD1-4384-A455-2501CF5184C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{991F3411-DAD1-4384-A455-2501CF5184C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{991F3411-DAD1-4384-A455-2501CF5184C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E0D95B-4849-42E6-A897-1552A6C8D120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E0D95B-4849-42E6-A897-1552A6C8D120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E0D95B-4849-42E6-A897-1552A6C8D120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E0D95B-4849-42E6-A897-1552A6C8D120}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
